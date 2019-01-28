@@ -1,0 +1,165 @@
+* {
+  font-family: "Open Sans";
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: normal;
+}
+
+span {
+  font-weight: bold;
+}
+
+h2 {
+  color: #000000;
+  padding-top: 30px;
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("./images/park.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+img {
+  border-radius: 500px;
+  border-style: solid;
+  border-color: #048eaa;
+  height: 200px;
+}
+
+p {
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+input {
+  color: #000000;
+  border-radius: 2px;
+  border-width: 100%
+}
+
+label {
+  text-align: left;
+  color: #ffffff;
+  margin-top: 70px;
+  margin-right: 310px;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #048eaa;
+  text-align: center;
+}
+
+.icon-image {
+  border-radius: 500px;
+  border-style: none;
+  height: 50px;
+  margin: 0;
+  margin-left: 20px;
+  position: relative;
+  bottom: 10px;
+  left:  10px;
+}
+
+.icon-left {
+  border-radius: 100px;
+  float: left;
+  display: inline-block;
+}
+
+.nav {
+  background-color: #75e2e6;
+  padding-bottom: -2px;
+  border-bottom: 2px #048eaa solid;
+}
+
+.name {
+  display: block;
+  margin: 15px auto;
+  color: #ffffff;
+  text-align: left;
+  border-width: 0;
+  border-radius: 2px;
+  width: 370px;
+  height: 60px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.dog2 {
+  background-color: #048eaa;
+  border: 0;
+  color: #ffffff;
+  padding: 20px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.dog1 {
+  background-color: #75e2e6;
+  color: #000000;
+  display: inline-block;
+  width: 370px;
+}
+
+.icon-bot {
+  height: 40px;
+  text-align: center;
+  border-radius: 0px;
+  display: inline-block;
+  float: 0;
+}
+
+.icon-style {
+  text-align: center;
+  display: inline-block;
+  float: none;
+}
+.footer-learn {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.clearfix:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 660px){
+  .column {
+    width: 100%;
+  }
+}
